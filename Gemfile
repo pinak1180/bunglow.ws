@@ -45,3 +45,6 @@ end
 # gem 'debugger', group: [:development, :test]
 gem "nokogiri", "~> 1.6.0"
 gem "seed_dump", "~> 2.0.0"
+group :production do
+  gem 'pg'
+end
